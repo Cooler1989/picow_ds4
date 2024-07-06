@@ -56,14 +56,20 @@
 
 #define MAX_ATTRIBUTE_VALUE_SIZE 512
 
+// hcitool scan:
+// A4:AE:11:8C:7B:9C
+static const char * remote_addr_string = "A4:AE:11:8C:7B:9C";
 // SN30 Pro
 //static const char * remote_addr_string = "E4:17:D8:EE:73:0E";
 // Real DS4
-//static const char * remote_addr_string = "00:22:68:DB:D3:66";
+// static const char * remote_addr_string = "00:22:68:DB:D3:66";
 // Knockoff DS4
 //static const char * remote_addr_string = "A5:15:66:8E:91:3B";
 // Brian C Knockoff DS4
-static const char * remote_addr_string = "8C:41:F2:D0:32:43";
+//static const char * remote_addr_string = "8C:41:F2:D0:32:43";
+// Sony PLAYSTATION(R)3 Controller
+// Device 00:1B:FB:65:B7:69 Sony PLAYSTATION(R)3 Controller
+//static const char * remote_addr_string = "00:1B:FB:65:B7:69";
 
 static bd_addr_t remote_addr;
 static bd_addr_t connected_addr;
